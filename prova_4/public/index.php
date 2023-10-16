@@ -27,7 +27,7 @@ if(isset($_GET['error']) && $_GET['error'] == 'passwordMismatch') {
    
         <input type="submit"  value="Registrati"><br><br>
 
-       <a href ="login.html">Loging</a>
+       <a href ="login.html">Login</a>
     </body>
 </html>
 
