@@ -21,7 +21,10 @@ if(isset($_GET['error']) && $_GET['error'] == 'passwordMismatch') {
         <label for="password">Password:</label>
         <input type="password"  id="password" name="password" required><br><br>
 
-      
+        <label for="confermaPassword">Conferma Password:</label>
+        <input type="password" id="confermaPassword" name="confermaPassword" required><br><br>
+
+   
         <input type="submit"  value="Registrati"><br><br>
 
        <a href ="login.html">Loging</a>

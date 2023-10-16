@@ -5,11 +5,7 @@ $nome = $_POST['nome'];
 $cognome = $_POST['cognome'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-$confermaPassword = $_POST['confermaPassword'];
-if ($password !== $confermaPassword) {
-    header("Location: ../public/index.php?error=passwordMismatch");
-    exit(); 
-}
+
 
 $conn = connessioneNAvigatore();
 
