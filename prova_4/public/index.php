@@ -14,6 +14,9 @@ if(isset($_GET['error']) && $_GET['error'] == 'passwordMismatch') {
         <label for="cognome">Cognome</label>
         <input type="text"  id="cognome" name="cognome" required><br><br>
 
+        <label for="data">Data di nascita:</label>
+        <input type="data"  id="data" name="data" required><br><br>
+
         <label for="email">Email:</label>
         <input type="email"  id="email" name="email" required>
     
